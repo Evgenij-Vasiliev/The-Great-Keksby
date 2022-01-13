@@ -7,8 +7,25 @@
 }
 .price-list {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse;  
 }
 .price-list td {
   border: 1px solid #333333;
+}
+
+.price-list th {
+  font-weight: normal;
+  text-align: left;
+}
+
+.price-list td, .price-list th {
+  padding: 5px 10px;
+}
+
+.price-list .price-number {
+  text-align: center;
+}
+
+.price-list .price-name {
+  font-weight: bold;
 }
